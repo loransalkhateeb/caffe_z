@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>larger number</title>
+</head>
+<body>
+    <script>
+        var number1 = parseFloat(prompt("Enter the first number:"));
+        var number2 = parseFloat(prompt("Enter the second number:"));
+            if (!isNaN(number1) && !isNaN(number2)) {
+                if (number1 > number2) {
+                    console.log("The large number : " + number1);
+                } else if (number2 > number1) {
+                    console.log("The large number : " + number2);
+                } else {
+                    console.log("Both numbers are equal: " + number1);
+                }
+            } else {
+                console.log("Please enter valid numbers.");
+            }
+        
+        </script>
+</body>
+</html>
