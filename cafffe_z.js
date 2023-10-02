@@ -28,3 +28,8 @@ if (gender === "male" || gender === "female") {
 
     console.log('${name} ordered a ${drinkType} drink: ${drinkName}');
 }
+
+
+
+
+
